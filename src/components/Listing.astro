@@ -1,0 +1,15 @@
+---
+import Entry from "./Entry.astro";
+import Lead from "./Lead.astro";
+import Pager from "./Pager.astro";
+import { type Post } from "../lib/site";
+interface Props { posts: Post[]; page: number; pages: number; base: string; withLead?: boolean }
+const { posts, page, pages, base, withLead = true } = Astro.props;
+const lead = withLead && page === 1 ? posts.find((p) => p.data.image) : undefined;
+const rest = lead ? posts.filter((p) => p !== lead) : posts;
+---
+{lead && <Lead post={lead} />}
+<ol class="index">
+  {rest.map((p) => <Entry post={p} />)}
+</ol>
+<Pager page={page} pages={pages} base={base} />

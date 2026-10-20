@@ -1,0 +1,87 @@
+---
+import "../styles/global.css";
+import { SITE, NAV, CATS, catUrl, getPosts, postsInCat } from "../lib/site";
+
+interface Props { title?: string; description?: string; image?: string; compact?: boolean; current?: string }
+const { title, description = SITE.description, image, compact = false, current = Astro.url.pathname } = Astro.props;
+const fullTitle = title ? `${title} – ${SITE.title}` : SITE.title;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = image ? new URL(image, Astro.site).href : undefined;
+
+const posts = await getPosts();
+const rubriques = Object.values(CATS)
+  .filter((c) => c.slug !== "non-classe")
+  .map((c) => ({ ...c, n: postsInCat(posts, c.slug).length }))
+  .filter((c) => c.n > 0)
+  .sort((a, b) => b.n - a.n);
+const year = new Date().getFullYear();
+---
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{fullTitle}</title>
+  <meta name="description" content={description}>
+  <link rel="canonical" href={canonical}>
+  <meta name="theme-color" content="#111315">
+  <meta property="og:site_name" content={SITE.title}>
+  <meta property="og:title" content={title ?? SITE.title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={canonical}>
+  <meta property="og:locale" content="fr_FR">
+  {ogImage && <meta property="og:image" content={ogImage}>}
+  <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"}>
+  <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <header class:list={["mast", { compact }]}>
+    <div class="wrap">
+      <div class="mast-top">
+        <div>
+          <a class="brand" href="/">
+            <span class="brand-mark" aria-hidden="true">∅</span>
+            <span class="brand-name">{SITE.title}</span>
+          </a>
+          {!compact && <div class="byline mono">{SITE.author} · carnet tenu depuis 2017</div>}
+        </div>
+        {!compact && (
+          <blockquote class="epigraph">« {SITE.epigraph} »<cite>{SITE.epigraphAuthor}</cite></blockquote>
+        )}
+      </div>
+      <nav class="nav" aria-label="Menu principal">
+        {NAV.map((l) => <a href={l.href} aria-current={current === l.href ? "page" : undefined}>{l.label}</a>)}
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="wrap">
+    <slot />
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <section>
+        <h2>Suivre le journal</h2>
+        <p>Les nouveaux textes arrivent dans votre lecteur de flux. Pour écrire à l’auteur : <span class="mono">{SITE.email}</span></p>
+        <div class="links">
+          <a class="btn" href="/rss.xml">Flux RSS</a>
+          <a class="btn" href="/contact/">Contact</a>
+        </div>
+      </section>
+      <section>
+        <h2>Rubriques</h2>
+        <ul class="cats-list">
+          {rubriques.map((c) => <li><a href={catUrl(c.slug)}>{c.name}</a><span class="n">{c.n}</span></li>)}
+        </ul>
+      </section>
+    </div>
+    <div class="wrap"><div class="colophon mono">{SITE.title} · {SITE.author} · 2017 – {year}</div></div>
+  </footer>
+</body>
+</html>

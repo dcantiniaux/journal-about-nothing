@@ -1,0 +1,32 @@
+---
+title: "Voyelles, Arthur Rimbaud"
+path: "/2019/10/08/voyelles-arthur-rimbaud/"
+date: "2019-10-08T07:17:18"
+updated: "2019-10-08T07:17:18"
+categories: []
+tags: ["arthur-rimbaud", "poesie", "voyelles"]
+image: "/wp-content/uploads/2019/10/rimbaud_manuscrit_voyelles.jpg"
+excerpt: "A noir, E blanc, I rouge, U vert, O bleu : voyelles, Je dirai quelque jour vos naissances latentes : A, noir corset velu des mouches éclatantes Qui bombinent autour des puanteurs cruelles,"
+readingTime: 1
+comments: []
+---
+
+A noir, E blanc, I rouge, U vert, O bleu : voyelles,
+Je dirai quelque jour vos naissances latentes :
+A, noir corset velu des mouches éclatantes
+Qui bombinent autour des puanteurs cruelles,
+
+Golfes d’ombre ; E, candeurs des vapeurs et des tentes,
+Lances des glaciers fiers, rois blancs, frissons d’ombelles ;
+I, pourpres, sang craché, rire des lèvres belles
+Dans la colère ou les ivresses pénitentes ;
+
+U, cycles, vibrements divins des mers virides,
+Paix des pâtis semés d’animaux, paix des rides
+Que l’alchimie imprime aux grands fronts studieux ;
+
+O, suprême Clairon plein des strideurs étranges,
+Silences traversés des Mondes et des Anges :
+— O l’Oméga, rayon violet de Ses Yeux !
+
+Arthur Rimbaud, *Poésies*

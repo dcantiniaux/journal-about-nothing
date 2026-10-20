@@ -1,0 +1,62 @@
+{
+  "articles-de-presse": {
+    "slug": "articles-de-presse",
+    "name": "Articles de presse",
+    "parent": null
+  },
+  "journaux-intimes": {
+    "slug": "journaux-intimes",
+    "name": "Journaux intimes",
+    "parent": null
+  },
+  "lettres-dinsultes-et-autres-correspondance": {
+    "slug": "lettres-dinsultes-et-autres-correspondance",
+    "name": "Lettres d’insultes et autres correspondances",
+    "parent": null
+  },
+  "masterclasse": {
+    "slug": "masterclasse",
+    "name": "Masterclasse",
+    "parent": null
+  },
+  "musique-du-vendredi": {
+    "slug": "musique-du-vendredi",
+    "name": "Musique du vendredi",
+    "parent": null
+  },
+  "non-classe": {
+    "slug": "non-classe",
+    "name": "Non classé",
+    "parent": null
+  },
+  "pdocast-philo-pour-enfants": {
+    "slug": "pdocast-philo-pour-enfants",
+    "name": "Podcast philo pour enfants",
+    "parent": null
+  },
+  "poesie": {
+    "slug": "poesie",
+    "name": "Poésie",
+    "parent": "non-classe"
+  },
+  "psychologie-philosophie-analyse": {
+    "slug": "psychologie-philosophie-analyse",
+    "name": "Psychologie, philosophie, analyse",
+    "parent": "non-classe"
+  },
+  "tous-a-louest": {
+    "slug": "tous-a-louest",
+    "name": "Tous à l’ouest !!",
+    "parent": null
+  },
+  "brouteur": {
+    "slug": "brouteur",
+    "name": "Brouteur",
+    "parent": "tous-a-louest"
+  },
+  "journal-intime-de-la-pandemie": {
+    "slug": "journal-intime-de-la-pandemie",
+    "name": "Journal intime de la pandémie",
+    "parent": "journaux-intimes"
+  }
+}

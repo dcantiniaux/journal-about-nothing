@@ -1,0 +1,7 @@
+---
+interface Props { src?: string; eager?: boolean }
+const { src, eager = false } = Astro.props;
+---
+{src
+  ? <figure class="ph"><img src={src} alt="" loading={eager ? "eager" : "lazy"} decoding="async"></figure>
+  : <figure class="ph ph-empty" aria-hidden="true">∅</figure>}

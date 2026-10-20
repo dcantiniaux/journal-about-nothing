@@ -1,0 +1,24 @@
+---
+import Base from "../../layouts/Base.astro";
+import Listing from "../../components/Listing.astro";
+import { TAGS, getPosts, chunk, SITE } from "../../lib/site";
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const out = [];
+  for (const [slug, name] of Object.entries(TAGS)) {
+    const list = posts.filter((p) => p.data.tags.includes(slug));
+    if (!list.length) continue;
+    const pages = chunk(list, SITE.perPage);
+    pages.forEach((items, i) => out.push({ params: { slug: slug + (i ? `/page/${i + 1}` : "") }, props: { slug, name, items, n: i + 1, total: pages.length, count: list.length } }));
+  }
+  return out;
+}
+const { slug, name, items, n, total, count } = Astro.props;
+---
+<Base title={`Étiquette : ${name}`}>
+  <section class="head">
+    <span class="eyebrow mono">Étiquette · {count} {count > 1 ? "textes" : "texte"}</span>
+    <h1>{name}</h1>
+  </section>
+  <Listing posts={items} page={n} pages={total} base={`/tag/${slug}/`} withLead={false} />
+</Base>

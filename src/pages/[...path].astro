@@ -1,0 +1,45 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../layouts/Base.astro";
+import HomeHead from "../components/HomeHead.astro";
+import Listing from "../components/Listing.astro";
+import PostView from "../components/PostView.astro";
+import { getPosts, postsInCat, catName } from "../lib/site";
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const pages = await getCollection("pages");
+  const strip = (p: string) => p.replace(/^\/|\/$/g, "");
+  const out: any[] = [];
+  posts.forEach((post, i) => {
+    out.push({ params: { path: strip(post.data.path) }, props: { kind: "post", post, newer: posts[i - 1], older: posts[i + 1] } });
+  });
+  for (const page of pages) out.push({ params: { path: strip(page.data.path) }, props: { kind: "page", page } });
+  // Anciennes pages de menu WordPress (vides), remplacées par la liste de leur rubrique.
+  for (const [path, cat] of [["masterclasse", "masterclasse"], ["podcast-philo-pour-enfants", "pdocast-philo-pour-enfants"]]) {
+    out.push({ params: { path }, props: { kind: "list", cat, items: postsInCat(posts, cat) } });
+  }
+  return out;
+}
+
+const p = Astro.props as any;
+const Content = p.kind === "page" ? (await render(p.page)).Content : null;
+const here = Astro.url.pathname;
+---
+{p.kind === "post" && <PostView post={p.post} newer={p.newer} older={p.older} />}
+
+{p.kind === "page" && Content && (
+  <Base title={p.page.data.title} compact current={here}>
+    <article class="page">
+      <h1>{p.page.data.title}</h1>
+      <div class="prose"><Content /></div>
+    </article>
+  </Base>
+)}
+
+{p.kind === "list" && (
+  <Base title={catName(p.cat)} current={here}>
+    <HomeHead eyebrow={"Rubrique · " + p.items.length + " textes"} title={catName(p.cat)} active={p.cat} />
+    <Listing posts={p.items} page={1} pages={1} base={here} />
+  </Base>
+)}

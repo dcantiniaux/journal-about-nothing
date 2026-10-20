@@ -1,0 +1,16 @@
+---
+import Thumb from "./Thumb.astro";
+import { type Post, dateLong } from "../lib/site";
+interface Props { post: Post; label?: string }
+const { post, label = "Dernier texte" } = Astro.props;
+const d = post.data;
+---
+<article class="lead">
+  <Thumb src={d.image} eager />
+  <div>
+    <span class="lead-label mono">{label}</span>
+    <h2><a href={d.path}>{d.title}</a></h2>
+    <p class="hook">« {d.accroche ?? d.excerpt} »</p>
+    <span class="meta mono">{dateLong(d.date)} · {d.readingTime} min de lecture</span>
+  </div>
+</article>

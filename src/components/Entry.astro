@@ -1,0 +1,25 @@
+---
+import Thumb from "./Thumb.astro";
+import { type Post, mainCat, catName, catUrl, dateShort, iso } from "../lib/site";
+interface Props { post: Post }
+const { post } = Astro.props;
+const d = post.data;
+const cat = mainCat(post);
+const len = `${d.readingTime} min`;
+---
+<li class="entry">
+  <time class="mono side" datetime={iso(d.date)}>{dateShort(d.date)}</time>
+  <Thumb src={d.image} />
+  <div class="body">
+    <div class="top">
+      {cat && <a class="tag mono" href={catUrl(cat)}>{catName(cat)}</a>}
+      <time class="mono" datetime={iso(d.date)}>{dateShort(d.date)}</time>
+      <span class="len mono">{len}</span>
+    </div>
+    <h3><a href={d.path}>{d.title}</a></h3>
+    {d.accroche
+      ? <p class="hook">« {d.accroche} »</p>
+      : d.excerpt && <p class="exc">{d.excerpt}</p>}
+  </div>
+  <span class="len mono side">{len}</span>
+</li>

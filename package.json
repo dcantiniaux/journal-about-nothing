@@ -1,0 +1,16 @@
+{
+  "name": "journal-about-nothing",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "convert": "python3 tools/convert_wp.py"
+  },
+  "dependencies": {
+    "astro": "5.18.2",
+    "@astrojs/rss": "4.0.19"
+  }
+}

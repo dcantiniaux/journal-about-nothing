@@ -1,0 +1,15 @@
+---
+import Base from "../../layouts/Base.astro";
+import HomeHead from "../../components/HomeHead.astro";
+import Listing from "../../components/Listing.astro";
+import { getPosts, chunk, SITE } from "../../lib/site";
+export async function getStaticPaths() {
+  const pages = chunk(await getPosts(), SITE.perPage);
+  return pages.slice(1).map((items, i) => ({ params: { n: String(i + 2) }, props: { items, n: i + 2, total: pages.length } }));
+}
+const { items, n, total } = Astro.props;
+---
+<Base title={`Page ${n}`}>
+  <HomeHead eyebrow={`Page ${n} sur ${total}`} title="Tous les textes" active="all" />
+  <Listing posts={items} page={n} pages={total} base="/" withLead={false} />
+</Base>

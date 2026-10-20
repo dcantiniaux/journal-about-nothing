@@ -1,0 +1,24 @@
+---
+title: "Mark Twain et la civilisation contemporain: quand Satan raconte la terre au Bon Dieu"
+path: "/2018/12/16/mark-twain-et-la-civilisation-contemporain-quand-satan-raconte-la-terre-au-bon-dieu/"
+date: "2018-12-16T22:06:54"
+updated: "2019-09-11T22:09:37"
+categories: ["tous-a-louest"]
+tags: ["arche-de-noe", "civilisation", "dieu", "humour", "mark-twain", "philosophe", "satan"]
+image: "/wp-content/uploads/2018/12/img_1249.jpg"
+excerpt: "\"C'est une civilisation qui a détruit la simplicité et la quiétude de la vie, qui a remplacé sa douceur, sa poésie, ses rêves tendres et ses visions éthérées par la fièvre de l'or, des objectifs sordides, des ambitions vulgaires, un sommeil sans délassement ; elle a multiplié le goût du luxe inutile et l’a mué en besoin ; créé mille appétits pervers, sans en satisfaire aucun ;\""
+readingTime: 3
+comments: []
+---
+
+**Mark Twain (1835-1910) est un pamphlétaire américain à l’esprit mordant. Plusieurs textes ont été publiés 50 ans après sa mort tant ils étaient irrévérencieux (il faudra attendre plus de 100 ans pour que l'autobiographie de l'écrivain soit publiée)**
+
+**Regmald Selkirk est un philosophe fou. Il justifie les raisons poussant Dieu à noyer l’Homme du temps de Noé et de son arche.**
+
+**Le texte a beau être centenaire, il n’en reste pas moins extrêmement contemporain.**
+
+«Notre merveilleuse civilisation? Je ne ferai d'objection à l'épithète - car elle est on ne peut plus justifiée - mais je ne saurais approuver l'admiration excessive et complaisante quelle implique. D'après toutes les relations qui nous en furent données - et au premier chef les vôtres. Excellence - la civilisation d'Eden, pure, douce, ignorante, vierge de toute vilenie, était mille millions de fois supérieure à la nôtre. Qu'est-ce donc qu'une civilisation, si l'on y réfléchit correctement? Dans l’ordre du moral, c'est la victoire sur les passions mauvaises, une dignité accrue de la conduite ; spirituellement, c'est le renversement des idoles et la glorification de Dieu ; matériellement le pain et un traitement équitable pour le plus grand nombre. Telle est la définition ordinaire, banale, acceptée sans réserve par tous.
+
+«Notre civilisation est merveilleuse, mais non sans un certain côté factice et spectaculaire ; merveilleuse par ses étonnantes découvertes scientifiques et ses inventions miraculeuses ; merveilleuse par l'accroissement démesure des biens matériels, que l'on qualifie de progrès et autres dénominations aimables ; met-veilleuse par ses efforts pour violer les secrets profonds de la Nature, et triompher des lois qu'elle s'achame à nous refuser : merveilleuse par ses extraordinaires réussites commerciales ou financières ; merveilleuse par son furieux désir de s'enrichir, et son indifference aux moyens employés pour y parvenir ; merveilleuse par l'énormité de ses fortunes privées, jusqu'à ce jour inconcevable, même en rêve: merveilleuse, aussi bien, par la prodigalité avec'iaqueFle on les distribue aux institutions culturelles ; merveilleuse L’indécent étalage de sa misère ; merveilleuse par lessurprises que lui Procure la demière-née de ses inventions, l’organisation, la création la plus récente, la plus la plus magique de l’intellect commercialisé :
+
+Elle répand ses bienfaits dans les usines, les moyens de communication et de transport, l'édition, la centralisation des informations et leur diffusion par la presse ; elle sert efficacement à protéger les travailleurs ; à opprimer les travailleurs ; à rassembler en un troupeau les partis politiques ; à garantir la docilité et l'exploitation des moutons qui les composent ; à fermer l'administration de l'Etat à l'intelligence et à la personnalité ; à élire des assemblées vénales, des congrès niais et bavards; des municipalités qui escroquent leurs administrés et couvrent de la protection officielle, moyennant finance, les piliers de tripot, voleurs, racoleurs et prostituées. C'est une civilisation qui a détruit la simplicité et la quiétude de la vie, qui a remplacé sa douceur, sa poésie, ses rêves tendres et ses visions éthérées par la fièvre de l'or, des objectifs sordides, des ambitions vulgaires, un sommeil sans délassement ; elle a multiplié le goût du luxe inutile et l’a mué en besoin ; créé mille appétits pervers, sans en satisfaire aucun ; elle a détrôné Dieu et a mis le Veau d'or à sa place. La Religion a déserte le cœur pour les lèvres. Noé nous le certifie. Il fut un temps où deux sectes divisées par quelque point tenu de doctrine se battaient, tuaient, torturaient, persécutaient et acceptaient la mort pour cette intime nuance. Cette religion-là habitait le cœur, c'était une chose vivante, vitale. Qui combat aujourd'hui pour sa religion, sinon avec ses seules lèvres ? Votre civilisation va déchaîner le deluge. Noé l’a dit, et il se prépare. »

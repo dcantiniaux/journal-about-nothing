@@ -1,0 +1,48 @@
+---
+title: "Musique du Vendredi - 6 novembre 2020"
+path: "/2020/11/09/musique-du-vendredi-6-novembre-2020/"
+date: "2020-11-09T23:14:16"
+updated: "2020-11-09T23:14:16"
+categories: ["musique-du-vendredi"]
+tags: ["gael-faye"]
+image: "/wp-content/uploads/2020/11/tymoeprxy5dofuduakjblwva2i-1.jpg"
+excerpt: "\"Vous finirez seuls et vaincus, grands éructants rudimentaires\nInsouciants face à nos errances sur la rude écale de la Terre\nIndifférents aux pulsations qui lâchent laisse à l’espérance\""
+readingTime: 5
+comments: [{"id": "211", "parent": "0", "author": "Dominique", "date": "2020-11-10T06:39:06", "text": "Ce sont de beaux et tristes textes. Ayant connu une guerre en Afrique (sommes partis à temps !) ces paroles me parlent, même si à l'époque j'étais très jeune.\nQuelle ressemblanve physique avec Stromae !!!"}, {"id": "212", "parent": "211", "author": "Ethan Mills", "date": "2020-11-10T06:49:12", "text": "Ils se ressemblent de ouf! Et ils sont très poète tous les deux... c’est triste mais avec de l’espoir. L’album est construit de fort belle manière. On sent qu’il y a une progression. Tu étais dans quel pays?"}, {"id": "213", "parent": "212", "author": "Dominique", "date": "2020-11-10T06:51:21", "text": "Nous vivions dans le Kivu, près du Katanga."}, {"id": "214", "parent": "212", "author": "Dominique", "date": "2020-11-10T06:52:50", "text": "mais c'était il y a longtemps, longtemps... depuis cette région a toujours connu la guerre."}, {"id": "215", "parent": "213", "author": "Ethan Mills", "date": "2020-11-10T06:53:23", "text": "Une de mes amis vit en rdc. C’est tendu comme coin!"}, {"id": "216", "parent": "215", "author": "Dominique", "date": "2020-11-10T06:56:18", "text": "C'est un bien trop grand et riche pays (sous-sol)  gouverné par des gens chaque fois plus corrompus."}]
+---
+
+**L'écrivain et rappeur Gaël Faye vient de sortir : "Lundi Méchant". Un disque philosophique, entrainant, envoûtant. Je l'écoute en boucle depuis vendredi minuit. Tout y est somptueux.** Et pourtant, ce n'était pas gagné ! En 2017, il avait sorti Rythme et botanique, un EP incroyable avec [Tôt le matin](https://www.youtube.com/watch?v=s_0IUrNjZRU), [Solstice](https://www.youtube.com/watch?v=Jj1R6hYLsbg&list=RDs_0IUrNjZRU&index=6), [Irruption](https://www.youtube.com/watch?v=2CT2p4adHXA&list=RDs_0IUrNjZRU&index=7).
+
+L’album, mi-acoustique mi-électronique, est traversé par des sentiments divers que nous bombarde, avec une certaine douceur, la voix du rappeur. Voici sa vie, avec des inserts de son dernier album. Allez, c'est parti !
+
+Dans les [Echos](https://www.lesechos.fr/weekend/livres-expositions/gael-faye-financier-rappeur-et-romancier-a-succes-1210702), on apprend que ses premières années au **Burundi** et le départ précipité pour la France n’empruntent rien au champ de la fiction. C’est durant ces journées de chaos qu’il noircit des pages pour la première fois, juste avant d’embarquer dans l’avion de rapatriement venu chercher les ressortissants français. *« Bujumbura était vraiment en guerre, ça pilonnait du matin au soir, il y avait des meurtres partout dans la rue. J’ai écrit parce que j’avais peur »*, se remémore-t-il. Premiers germes de l’artiste qui sommeille en lui, ces heures sombres sont aussi le fil rouge de toute son œuvre. *« J’ai débarqué un soir d’hiver, aéroport Charles de Gaulle / victime des dommages collatéraux du discours de la Baule »*, rime-t-il dans son premier album.
+
+<div class="embed embed-video"><iframe allow="encrypted-media; picture-in-picture" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/NxPbrOWbltE" title="Vidéo YouTube"></iframe></div>
+
+Sur le tarmac, sa **mère** l’attend, tandis que son père reste, lui, vivre au Burundi. Direction **Versailles** où il fera collège, lycée avant de s’orienter vers des études de finance à l’université puis dans une école de commerce via les cours à distance du CNAM. Option actuariat et assurances. Un parcours carré qui ne s’arrondit pas quand il décroche son Master 2. Le diplômé traverse la Manche pour travailler à la City dans un fonds d’investissement. Aujourd’hui, il préfère éviter de nommer son ancien employeur ainsi que sa **business school**. *« Ça leur fait de la pub. Et si jamais je gagne un prix important, je n’aimerais pas qu’ils me présentent comme un ancien salarié ou élève »*, décrypte Gaël Faye.
+
+<div class="embed embed-video"><iframe allow="encrypted-media; picture-in-picture" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/hkSWT0CGeKY" title="Vidéo YouTube"></iframe></div>
+
+### BUREAU LE JOUR, SCÈNE SLAM LE SOIR
+
+Le voilà devenu gestionnaire de portefeuille spécialisé sur les risques de pollution et d’amiante. *« Il y avait aussi les risques politiques à prendre en compte, ce qui m’intéressait davantage »*, note-il. Tant pis pour les lettres. Va pour la prudence. *« Il fallait six mois pour maîtriser le logiciel dont on se servait, mais après le travail était très répétitif »*, ajoute-t-il. *« Consulting Marketing Finances, c’est pas vraiment son kif / Mais le voilà motivé pour travailler pendant dix ans / Épargner assez d’argent puis il sortira du rang / Même s’il échoue par la suite, il aura son assurance / Un diplôme Bac+5 et ses dix années d’expérience »*, [rappera](https://www.youtube.com/watch?v=XK2eqtaQZhk&list=RDs_0IUrNjZRU&index=4)-t-il quelques années plus tard, à la troisième personne, dans son deuxième album.
+
+<div class="embed embed-video"><iframe allow="encrypted-media; picture-in-picture" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/6OIQVbiY5J0" title="Vidéo YouTube"></iframe></div>
+
+Mais ce plan de vie ne sera pas mené à son terme. *« Tous les matins, les mêmes bonjours, aux mêmes personnes, au même endroit / La routine, le quotidien, parcours funèbre, chemin de croix […] Les objectifs, le rentable, compétitif jusqu’aux entrailles / Il s’est sculpté le masque exigé par le monde du travail »*, chante-il sur le même titre. Derrière le masque, l’homme grimace et se morfond. *« Je me plaignais énormément de ma vie auprès de mes proches. Il fallait que je change »*, explique-t-il aujourd’hui. Il se décide à délaisser ses tableurs Excel pour devenir « pianiste sur un clavier Azerty ». Mais l’artiste reconverti ne se lance pas les deux pieds joints et se contente de poser un orteil prudent dans ce nouveau monde. «*Je n’ai pas fait mon malin et dit tout de suite : “À moi la vie d’artiste”. J’ai trouvé un travail à la Défense et me suis laissé un an pour voir si les choses prenaient ou pas. »*
+
+<div class="embed embed-video"><iframe allow="encrypted-media; picture-in-picture" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/2-PDFIEWMfQ" title="Vidéo YouTube"></iframe></div>
+
+La **journée**, c’est métro-boulot. Le soir, le saltimbanque à mi-temps écume les scènes slam. Il y côtoie Edgar Sekloka, déjà croisé quelques années plus tôt autour d’une pièce de théâtre pour commémorer les dix ans du génocide rwandais. Avec lui, il fonde le groupe Milk Coffee and Sugar en 2007. Via leur propre structure, les deux artistes sortent un album du même nom, en indépendant, au cours de l’année 2010. La voix lourde et posée d’Edgar Sekloka se marie parfaitement au flow plus agile et délié de Gaël Faye. **Révélation du printemps de Bourges 2011**, le duo se trouve un public, même si le succès d’estime ne sera pas commercial, avec 5 000 albums vendus. Mais l’opus et la qualité de leur écriture ont charmé quelques oreilles. Gaël Faye signe, en contrat de licence, chez Motown/Mercury (Universal Music France) et, début 2013, son premier album solo voit le jour : « Pili-pili sur un croissant au beurre » (le pili-pili est un piment rouge africain, NDLR). *« Avec le recul, je pense que c’est une œuvre fondatrice qui l’a libéré, car il existait là vraiment en tant que Gaël Faye et ça lui a permis de se projeter comme artiste solo à part entière »*, estime Damien Régnier, chef de projet, pour Universal Music France, de cet album. L’opus est très autobiographique, Gaël Faye y explore son passé. Comme avec le morceau Hope Anthem dans le précédent album, il aborde la question rwandaise dans un titre intitulé… Petit pays. Déjà.
+
+Gaël Faye chante Christiane Taubira
+
+<div class="embed embed-video"><iframe allow="encrypted-media; picture-in-picture" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/B-oWr0XQ5AQ" title="Vidéo YouTube"></iframe></div>
+
+Ces mots sont ceux de **Christiane Taubira**, l'ancienne ministre de la Justice. Elle a écrit ce poème dans un contexte d'attaques racistes qu'elle avait subit. Un texte ciselé, magnifique et c’est peut-être la plus belle réponse qu’elle peut faire aux intolérants. Dans ce poème, l’ex-ministre de la Justice témoigne de sa foi envers les générations futures pour combattre intolérance et racisme. **Ce morceau fera date dans la chanson française. Il y est dit que ce que nous avons en nous de lumineux triomphera toujours et on aimerait la croire.**
+
+<div class="embed embed-video"><iframe allow="encrypted-media; picture-in-picture" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/QSWQ8kC_oSk" title="Vidéo YouTube"></iframe></div>
+
+<div class="embed embed-video"><iframe allow="encrypted-media; picture-in-picture" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/vz5Zhok8AgM" title="Vidéo YouTube"></iframe></div>
+
+L'album s'achève sur « **Kwibuka** », l'une de mes chansons préférées. C'est l’histoire d’un petit pays qui s’est remis du génocide. C'est plein d'espoir, rythmé. Sa voix est suave. C'est un hypercut.

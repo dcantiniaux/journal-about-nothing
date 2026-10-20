@@ -1,0 +1,14 @@
+---
+interface Props { page: number; pages: number; base: string }
+const { page, pages, base } = Astro.props;
+const href = (n: number) => (n === 1 ? base : `${base}page/${n}/`);
+---
+{pages > 1 && (
+  <nav class="pager" aria-label="Pagination">
+    <span class="pos mono">Page {page} sur {pages}</span>
+    <div class="links">
+      {page > 1 && <a class="btn" href={href(page - 1)}>← Textes plus récents</a>}
+      {page < pages && <a class="btn" href={href(page + 1)}>Textes plus anciens →</a>}
+    </div>
+  </nav>
+)}

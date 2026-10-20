@@ -1,0 +1,22 @@
+---
+import { CATS, catUrl, getPosts, postsInCat, shownParent } from "../lib/site";
+interface Props { eyebrow: string; title: string; intro?: string; active?: string }
+const { eyebrow, title, intro, active } = Astro.props;
+const posts = await getPosts();
+const chips = Object.values(CATS)
+  .filter((c) => !shownParent(c.slug) && c.slug !== "non-classe")
+  .map((c) => ({ ...c, n: postsInCat(posts, c.slug).length }))
+  .filter((c) => c.n > 0)
+  .sort((a, b) => b.n - a.n);
+---
+<section class="head">
+  <span class="eyebrow mono">{eyebrow}</span>
+  <h1>{title}</h1>
+  {intro && <p>{intro}</p>}
+  <nav class="chips" aria-label="Rubriques">
+    <a class="chip" href="/" aria-current={active === "all" ? "page" : undefined}>Tous<span class="n">{posts.length}</span></a>
+    {chips.map((c) => (
+      <a class="chip" href={catUrl(c.slug)} aria-current={active === c.slug ? "page" : undefined}>{c.name}<span class="n">{c.n}</span></a>
+    ))}
+  </nav>
+</section>

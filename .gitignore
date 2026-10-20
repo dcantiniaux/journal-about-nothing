@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+# L'export WordPress contient brouillons, articles protégés et adresses e-mail des commentateurs : il ne doit jamais être publié.
+*.xml
+!public/**/*.xml
+*.zip
+tools/media-errors.txt
+*.tar.gz

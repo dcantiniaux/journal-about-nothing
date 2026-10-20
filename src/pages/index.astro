@@ -1,0 +1,13 @@
+---
+import Base from "../layouts/Base.astro";
+import HomeHead from "../components/HomeHead.astro";
+import Listing from "../components/Listing.astro";
+import { getPosts, chunk, SITE } from "../lib/site";
+const posts = await getPosts();
+const pages = chunk(posts, SITE.perPage);
+const years = `${posts.at(-1)!.data.date.getUTCFullYear()} – ${posts[0].data.date.getUTCFullYear()}`;
+---
+<Base current="/">
+  <HomeHead eyebrow={`${posts.length} textes · ${years}`} title="Tous les textes" active="all" />
+  <Listing posts={pages[0]} page={1} pages={pages.length} base="/" />
+</Base>

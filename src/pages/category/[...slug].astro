@@ -1,0 +1,32 @@
+---
+import Base from "../../layouts/Base.astro";
+import HomeHead from "../../components/HomeHead.astro";
+import Listing from "../../components/Listing.astro";
+import { CATS, catUrl, getPosts, postsInCat, chunk, SITE, shownParent } from "../../lib/site";
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const out = [];
+  for (const c of Object.values(CATS)) {
+    const list = postsInCat(posts, c.slug);
+    if (!list.length) continue;
+    const base = catUrl(c.slug);
+    const pages = chunk(list, SITE.perPage);
+    pages.forEach((items, i) => {
+      const slug = base.replace(/^\/category\//, "").replace(/\/$/, "") + (i ? `/page/${i + 1}` : "");
+      out.push({ params: { slug }, props: { cat: c, items, n: i + 1, total: pages.length, count: list.length, base } });
+    });
+  }
+  return out;
+}
+const { cat, items, n, total, count, base } = Astro.props;
+const years = (() => {
+  const ys = items.map((p) => p.data.date.getUTCFullYear());
+  return `${Math.min(...ys)} – ${Math.max(...ys)}`;
+})();
+const sp = shownParent(cat.slug);
+const parent = sp ? CATS[sp] : undefined;
+---
+<Base title={n > 1 ? `${cat.name} (page ${n})` : cat.name} description={`${count} textes dans la rubrique ${cat.name}.`}>
+  <HomeHead eyebrow={"Rubrique" + (parent ? " · " + parent.name : "") + " · " + count + " textes · " + years} title={cat.name} active={sp ?? cat.slug} />
+  <Listing posts={items} page={n} pages={total} base={base} />
+</Base>
